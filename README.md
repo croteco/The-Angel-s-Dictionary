@@ -38,7 +38,7 @@
 
 ANIMAL, n. An organism which, requiring a great number of other animals for its sustenance, illustrates in a marked way the bounty of Providence in preserving the lives of his creatures.
 
-动物, n. 一种有机体，为了彰显上帝在保护他的造物的生命上是多么仁慈而存在，需要很多其他的动物来维生。
+动物, n. 一种有机体，为了彰显上帝在保护他的造物的生命上的仁慈而存在，需要很多其他的动物来维生。
 
 更加具体的说明在template/dictionary.tex中。
 
