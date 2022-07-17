@@ -1,20 +1,21 @@
-# <center>天使词典</center>
-<center>暂无编者</center>
-
+# 天使词典
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/croteco/The-Angel-s-Dictionary"></a>
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/croteco/The-Angel-s-Dictionary"></a>
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/croteco/The-Angel-s-Dictionary"></a>
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/github/license/croteco/The-Angel-s-Dictionary"></a>
 ## 当前进度
-
 <table align="center">
   <tr>
     <td align="right">模板和规范：</td>
-	<td><progress value="10" max="100">10.0%</progress></td>
+	<td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
   </tr>
    <tr>
     <td align="right">封面和扉页：</td>
-	<td><progress value="0" max="100">.0%</progress></td>
+	<td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
   </tr>
    <tr>
     <td align="right">目录和正文：</td>
-	<td><progress value="0" max="100">.0%</progress></td>
+	<td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
   </tr>
 </table>
 
@@ -59,7 +60,3 @@ ANIMAL, n. An organism which, requiring a great number of other animals for its 
 
 你中期考试考得一塌糊涂，被父母混合双打，每天使用电子设备的时间从30分钟缩减到了0分钟。
 
-<style type="text/css">
-p{text-indent:2em}
-table{width:100%}
-</style>
