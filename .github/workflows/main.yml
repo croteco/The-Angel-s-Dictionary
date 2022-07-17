@@ -19,7 +19,6 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: dictionary.tex
-          pre_compile: "paru -S texlive-langchinese"
           
       - name: Stash PDF
         run: |
