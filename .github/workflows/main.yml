@@ -19,6 +19,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: dictionary.tex
+          pre_compile: "tlmgr install ctex"
           
       - name: Stash PDF
         run: |
