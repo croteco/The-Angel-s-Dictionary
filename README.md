@@ -3,7 +3,7 @@
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/croteco/The-Angel-s-Dictionary"></a>
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/croteco/The-Angel-s-Dictionary"></a>
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen"></a>
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/croteco/The-Angel-s-Dictionary/Build%20&%20Release">
+[![Build & Release](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml/badge.svg)](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml)
 ## 当前进度
 <table align="center">
   <tr>
