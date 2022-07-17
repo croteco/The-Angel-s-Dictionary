@@ -22,6 +22,8 @@
 
 \usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=4.7cm,columnsep=30pt]{geometry} % Document margins and spacings
 
+\usepackage{CTEX} %中文支持
+
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
@@ -46,7 +48,11 @@
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-
+\input{parts/title.tex}
+\newpage
+\input{parts/index.tex}
+\newpage
 \input{parts/body.tex}
-
+\newpage
+\input{parts/appendix.tex}
 \end{document}
