@@ -3,6 +3,7 @@
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/croteco/The-Angel-s-Dictionary"></a>
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/croteco/The-Angel-s-Dictionary"></a>
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen"></a>
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/croteco/The-Angel-s-Dictionary/Build%20&%20Release">
 ## 当前进度
 <table align="center">
   <tr>
@@ -34,7 +35,7 @@
 
 词典由几个latex文件组成的，包含了封面、扉页、目录、正文和附录。template文件夹里面是字典的latex模板和给不熟悉latex和git的人准备的文件。
 
-字典正文和普通的字典类似，但是词语解释需要尽可能遵守以下原则：词义大致正确，说法大致错误。以下是恶魔词典对单词ANIMAL的解释和对应的非权威翻译，仅供参考，实际写作时请自由发挥。
+字典正文和普通的字典类似，但是词语解释需要尽可能遵循以下原则：词义大致正确，说法大致错误。以下是恶魔词典对单词ANIMAL的解释和对应的非权威翻译，仅供参考，实际写作时请自由发挥。
 
 ANIMAL, n. An organism which, requiring a great number of other animals for its sustenance, illustrates in a marked way the bounty of Providence in preserving the lives of his creatures.
 
