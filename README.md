@@ -8,7 +8,7 @@
 <table align="center">
   <tr>
     <td align="right">模板和规范：</td>
-	<td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
+	<td><img src="https://img.shields.io/badge/-10%25-lightgrey"></td>
   </tr>
    <tr>
     <td align="right">封面和扉页：</td>
@@ -28,20 +28,32 @@
 
 在未来的世界中，谐音或许将改变自身的模样，那样的话，词语现在的正确含义就需要被记住，因为，这些资料要么成为语言发展的历史记录，要么成为破除混乱局势的好帮手。而本项目就不是为了这样的目的而创建的，正经事情要正经人去做，我们来一起乐呵就行了。
 
-本项目是与以上凑字数的内容没什么关系的[恶魔词典](http://www.thedevilsdictionary.com/ "The Devil's Dictionary")的中文版本，如果已经有人做了，欢迎来合并内容，如果他没看到这句话，那么这个版本就是唯一的正版（没有授权的）。
+本项目是与以上凑字数的内容没什么关系的恶魔词典（The Devil's Dictionary）的中文版本，原作从1881年开始在周报上断断续续地发布，后被整合成册，原作者已失联超过一百年，不过现在依然有在线版本（[恶魔词典](http://www.thedevilsdictionary.com/ "The Devil's Dictionary")）。本项目希望在中文环境下延续恶魔词典的幽默，如果已经有人做了类似的东西，欢迎来合并内容，如果他没看到这句话，那么这个版本就是唯一的正版（没有授权）。
 
 
 ## 组成
 
-词典由几个latex文件组成的，包含了封面、扉页、目录、正文和附录。template文件夹里面是字典的latex模板和给不熟悉latex和git的人准备的文件。
+词典由几个latex文件组成的，包含了封面、扉页、目录、正文和附录。template文件夹里面是字典的latex模板和给不熟悉latex和git的人准备的文件。和普通的词典类似，所有词语按照拼音的字典序归到首字之下，同时各首字按照其拼音首字母归入对应小节，小节从A到Z顺序排列。
 
-字典正文和普通的字典类似，但是词语解释需要尽可能遵循以下原则：词义大致正确，说法大致错误。以下是恶魔词典对单词ANIMAL的解释和对应的非权威翻译，仅供参考，实际写作时请自由发挥。
+词语解释需要尽可能遵循以下原则：词义大致正确，说法大致错误。以下列举了恶魔词典对几个单词的解释和对应的非权威翻译，仅供参考，实际写作时请自由发挥。
 
-ANIMAL, n. An organism which, requiring a great number of other animals for its sustenance, illustrates in a marked way the bounty of Providence in preserving the lives of his creatures.
-
+ANIMAL, n. An organism which, requiring a great number of other animals for its sustenance, illustrates in a marked way the bounty of Providence in preserving the lives of his creatures.  
 动物, n. 一种有机体，为了彰显上帝在保护他的造物的生命上的仁慈而存在，需要很多其他的动物来维生。
 
-更加具体的说明在template/dictionary.tex中。
+ALONE, adj. In bad company.  
+In contact, lo! the flint and steel,  
+By spark and flame, the thought reveal  
+That he the metal, she the stone,  
+Had cherished secretly alone.  
+—Booley Fito  
+独自, adj. 在坏的公司里面。  
+啊，交往，是打火石点火  
+火光之间，思绪展现  
+他是金属，她是石片  
+独自一人，悄悄地爱念  
+—Booley Fito 
+
+请查看恶魔词典（前文有在线版本的链接）来体会这种感觉，争取写出高质量的段子。对于文档的结构和latex相关的内容，可以在template/dictionary.tex中找到更加具体的说明。
 
 ## 如何为这个项目添砖加瓦
 
@@ -51,7 +63,7 @@ ANIMAL, n. An organism which, requiring a great number of other animals for its 
 
 ### 情景2：其他行业的过客
 
-你不熟悉这一切，只是偶然看到了这个网站，决定参与到这个宏大的项目中来，你打开了项目中template文件夹里面的item.txt，发现不能下载，便在桌面新建了一个txt文件，将item.txt的内容复制进去，并在里面按照说明写了几条，然后通过电子邮件发送给了【暂缺】。
+你不熟悉这一切，只是偶然看到了这个网站，决定参与到这个宏大的项目中来，你打开了项目中template文件夹里面的item.txt，发现不能下载，便在桌面新建了一个txt文件，将item.txt的内容复制进去，并在里面按照说明写了几条，然后作为电子邮件附件发送给了item_submit.ad@outlook.com。
 
 ### 情景2：时间很多的大学生
 
