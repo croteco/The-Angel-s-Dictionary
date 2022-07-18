@@ -18,7 +18,7 @@
 \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
 }
 {
-\ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { ubuntu }
+\ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { windows }
 \ctex_punct_map_family:nn { \CJKrmdefault } { zhsong }
 \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
 \ctex_punct_map_itshape:nn { \CJKrmdefault } { zhkai }
