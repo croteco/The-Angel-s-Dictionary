@@ -18,14 +18,13 @@ jobs:
       - name: Prepare fonts
         run: |
          wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifCN-VF.ttf
-         wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def
-         cp ./ctex-fontset-angel.def /opt/texlive/texdir/texmf-dist/tex/latex/ctex/fontset/
-
+         
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: dictionary.tex
           extra_fonts: ./SourceHanSerifCN-VF.ttf
+          pre_compile: "wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
 
       - name: Stash PDF
         run: |
