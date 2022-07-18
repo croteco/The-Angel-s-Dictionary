@@ -20,7 +20,8 @@ jobs:
          wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifCN-VF.ttf
          wget https://github.com/AllThingsSmitty/fonts/raw/master/Univers/Univers.otf
          wget https://github.com/dtde/simhei/raw/main/simhei.ttf
-         
+         wget https://github.com/ZsgsDesign/fonts-asset-Simsun/raw/main/simsun.ttf
+         wget https://github.com/flyskywhy/react-native-font-sim/raw/master/fonts/KaiTi.ttf
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
@@ -28,6 +29,8 @@ jobs:
           extra_fonts: |
            ./SourceHanSerifCN-VF.ttf
            ./simhei.ttf
+           ./simsun.ttf
+           ./KaiTi.ttf
            ./Univers.otf
           pre_compile: "wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
 
