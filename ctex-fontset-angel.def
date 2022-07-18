@@ -36,5 +36,7 @@
 \NewDocumentCommand \heiti    { } { \CJKfamily { zhhei } }
 \NewDocumentCommand \fangsong { } { \CJKfamily { zhfs } }
 \NewDocumentCommand \kaishu   { } { \CJKfamily { zhkai } }
+\NewDocumentCommand \lishu    { } { \CJKfamily { zhli } }
+\NewDocumentCommand \youyuan  { } { \CJKfamily { zhyou } }
 
 \endinput
