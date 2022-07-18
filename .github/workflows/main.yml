@@ -18,7 +18,7 @@ jobs:
       - name: Prepare fonts
         run: |
          wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifCN-VF.ttf
-         wget https://github.com/croteco/AD-windows-fonts/raw/main/simsun.ttf
+         wget https://github.com/croteco/AD-windows-fonts/raw/main/simsun.ttc
          wget https://github.com/croteco/AD-windows-fonts/raw/main/simfang.ttf
          wget https://github.com/croteco/AD-windows-fonts/raw/main/simhei.ttf
          wget https://github.com/croteco/AD-windows-fonts/raw/main/simkai.ttf
@@ -29,7 +29,7 @@ jobs:
           root_file: dictionary.tex
           extra_fonts: |
            ./SourceHanSerifCN-VF.ttf
-           ./simsun.ttf
+           ./simsun.ttc
            ./simfang.ttf
            ./simhei.ttf
            ./simkai.ttf
