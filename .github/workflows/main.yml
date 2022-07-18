@@ -24,7 +24,7 @@ jobs:
         with:
           root_file: dictionary.tex
           extra_fonts: ./SourceHanSerifCN-VF.ttf
-          pre_compile: "wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
+          pre_compile: "tlmgr install zhmetrics && wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
 
       - name: Stash PDF
         run: |
