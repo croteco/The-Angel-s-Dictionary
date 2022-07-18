@@ -19,7 +19,7 @@ jobs:
         run: |
          wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifCN-VF.ttf
          wget https://github.com/flyskywhy/react-native-font-sim/raw/master/fonts/SimHei.ttf
-         
+         wget http://ftp.gnu.org/gnu/unifont/unifont-14.0.04/unifont-14.0.04.ttf
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
@@ -27,6 +27,7 @@ jobs:
           extra_fonts: |
            ./SourceHanSerifCN-VF.ttf
            ./SimHei.ttf
+           ./unifont-14.0.04.ttf
           pre_compile: "tlmgr install zhmetrics && wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
 
       - name: Stash PDF
