@@ -1,7 +1,7 @@
 \ProvidesExplFile{\ExplFileName}{}{}{}
 \ctex_zhmap_case:nnn
 {
-\ctex_punct_set:n { ubuntu }
+\ctex_punct_set:n { windows }
 \setCJKmainfont
   [ BoldFont = SourceHanSerifCN-VF.ttf , ItalicFont = SourceHanSerifCN-VF.ttf ] { SourceHanSerifCN-VF.ttf }
 \setCJKsansfont { SourceHanSerifCN-VF.ttf }
@@ -19,8 +19,8 @@
 \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
 }
 {
-\ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { ubuntu }
-\ctex_punct_set:n { ubuntu }
+\ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { windows }
+\ctex_punct_set:n { windows }
 \ctex_punct_map_family:nn { \CJKrmdefault } { zhsong }
 \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
 \ctex_punct_map_itshape:nn { \CJKrmdefault } { zhkai }
