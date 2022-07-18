@@ -18,12 +18,15 @@ jobs:
       - name: Prepare fonts
         run: |
          wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifCN-VF.ttf
+         wget https://github.com/flyskywhy/react-native-font-sim/raw/master/fonts/SimHei.ttf
          
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: dictionary.tex
-          extra_fonts: ./SourceHanSerifCN-VF.ttf
+          extra_fonts: |
+           ./SourceHanSerifCN-VF.ttf
+           ./SimHei.ttf
           pre_compile: "tlmgr install zhmetrics && wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
 
       - name: Stash PDF
