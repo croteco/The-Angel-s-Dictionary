@@ -14,13 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
+      - name: Prepare fonts
+        run: |
+         wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/OTF/Subset/SourceHanSerifCN-VF.otf
+
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: dictionary.tex
-          pre_compile: "wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/SourceHanSerifSC-VF.ttf"
-          extra_fonts: ./SourceHanSerifSC-VF.ttf
+          extra_fonts: ./SourceHanSerifCN-VF.otf
 
       - name: Stash PDF
         run: |
