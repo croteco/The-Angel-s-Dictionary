@@ -10,6 +10,8 @@
 \setCJKfamilyfont { zhfs }   { SourceHanSerifCN-VF.ttf }
 \setCJKfamilyfont { zhsong } { SourceHanSerifCN-VF.ttf }
 \setCJKfamilyfont { zhhei }  { SourceHanSerifCN-VF.ttf }
+\setCJKfamilyfont { zhli }   { SourceHanSerifCN-VF.ttf  }
+\setCJKfamilyfont { zhyou }  { SourceHanSerifCN-VF.ttf  }
 \ctex_punct_map_family:nn { \CJKrmdefault } { zhsong }
 \ctex_punct_map_family:nn { \CJKsfdefault } { zhhei }
 \ctex_punct_map_family:nn { \CJKttdefault } { zhfs }
@@ -17,6 +19,11 @@
 \ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
 }
 {
+\ctex_load_zhmap:nnnn { rm } { zhhei } { zhfs } { ubuntu }
+\ctex_punct_set:n { ubuntu }
+\ctex_punct_map_family:nn { \CJKrmdefault } { zhsong }
+\ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
+\ctex_punct_map_itshape:nn { \CJKrmdefault } { zhkai }
 }
 {
 \tl_set:Nn \CJKrmdefault { rm }
