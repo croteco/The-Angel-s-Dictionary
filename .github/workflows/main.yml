@@ -19,6 +19,7 @@ jobs:
         run: |
          wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/Subset/SourceHanSerifCN-VF.ttf
          wget https://github.com/AllThingsSmitty/fonts/raw/master/Univers/Univers.otf
+         wget https://github.com/dtde/simhei/raw/main/simhei.ttf
          
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
@@ -26,8 +27,9 @@ jobs:
           root_file: dictionary.tex
           extra_fonts: |
            ./SourceHanSerifCN-VF.ttf
+           ./simhei.ttf
            ./Univers.otf
-          pre_compile: "tlmgr install zhmetrics && wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
+          pre_compile: "wget https://github.com/croteco/The-Angel-s-Dictionary/raw/master/ctex-fontset-angel.def"
 
       - name: Stash PDF
         run: |
