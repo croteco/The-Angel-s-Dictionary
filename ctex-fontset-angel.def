@@ -1,13 +1,29 @@
 \ProvidesExplFile{\ExplFileName}{}{}{}
-
+\ctex_zhmap_case:nnn
+{
+\ctex_punct_set:n { ubuntu }
 \setCJKmainfont
   [ BoldFont = SourceHanSerifCN-VF.ttf , ItalicFont = SourceHanSerifCN-VF.ttf ] { SourceHanSerifCN-VF.ttf }
 \setCJKsansfont { SourceHanSerifCN-VF.ttf }
-\setCJKmonofont { [ SourceHanSerifCN-VF.ttf ] }
-\setCJKfamilyfont { zhsong }  { SourceHanSerifCN-VF.ttf }
-\setCJKfamilyfont { zhhei }   { SourceHanSerifCN-VF.ttf }
-\setCJKfamilyfont { zhkai }   { [ SourceHanSerifCN-VF.ttf ] }
-\setCJKfamilyfont { zhfs }    { [ SourceHanSerifCN-VF.ttf ] }
+\setCJKmonofont { SourceHanSerifCN-VF.ttf }
+\setCJKfamilyfont { zhkai }  { SourceHanSerifCN-VF.ttf }
+\setCJKfamilyfont { zhfs }   { SourceHanSerifCN-VF.ttf }
+\setCJKfamilyfont { zhsong } { SourceHanSerifCN-VF.ttf }
+\setCJKfamilyfont { zhhei }  { SourceHanSerifCN-VF.ttf }
+\ctex_punct_map_family:nn { \CJKrmdefault } { zhsong }
+\ctex_punct_map_family:nn { \CJKsfdefault } { zhhei }
+\ctex_punct_map_family:nn { \CJKttdefault } { zhfs }
+\ctex_punct_map_itshape:nn { \CJKrmdefault } { zhkai }
+\ctex_punct_map_bfseries:nn { \CJKrmdefault } { zhhei }
+}
+{
+}
+{
+\tl_set:Nn \CJKrmdefault { rm }
+\tl_set:Nn \CJKsfdefault { sf }
+\tl_set:Nn \CJKttdefault { tt }
+}
+
 
 \NewDocumentCommand \songti   { } { \CJKfamily { zhsong } }
 \NewDocumentCommand \heiti    { } { \CJKfamily { zhhei } }
