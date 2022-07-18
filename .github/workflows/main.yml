@@ -19,8 +19,9 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: dictionary.tex
-          pre_compile: "tlmgr install ctex"
-          
+          pre_compile: "wget https://github.com/adobe-fonts/source-han-serif/raw/release/Variable/TTF/SourceHanSerifSC-VF.ttf"
+          extra_fonts: ./SourceHanSerifSC-VF.ttf
+
       - name: Stash PDF
         run: |
           mv dictionary.pdf $HOME # cache the file
