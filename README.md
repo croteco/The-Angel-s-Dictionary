@@ -8,15 +8,19 @@
 <table align="center">
   <tr>
     <td align="right">模板和规范：</td>
-	<td><img src="https://img.shields.io/badge/-10%25-lightgrey"></td>
+    <td><img src="https://img.shields.io/badge/-50%25-yellow"></td>
   </tr>
    <tr>
     <td align="right">封面和扉页：</td>
-	<td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
+    <td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
   </tr>
    <tr>
     <td align="right">目录和正文：</td>
-	<td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
+    <td><img src="https://img.shields.io/badge/-1%25-lightgrey"></td>
+  </tr>
+  <tr>
+    <td><a title="Test Build" href="https://github.com/croteco/The-Angel-s-Dictionary/blob/gh_actions_builds/dictionary.pdf ">pdf下载（当前测试版本）</a></td>
+    <td><a title="Releases" href="https://github.com/croteco/The-Angel-s-Dictionary/releases">pdf下载（所有发布版本）</a></td>
   </tr>
 </table>
 
@@ -73,3 +77,9 @@ Had cherished secretly alone.
 
 你中期考试考得一塌糊涂，被父母混合双打，每天使用电子设备的时间从30分钟缩减到了0分钟。
 
+
+## 致谢
+
+本项目参考了以下项目:  
+ctex字体配置: https://github.com/Thesharing/pkuthss  
+action配置: https://link.zhihu.com/?target=https%3A//github.com/RavenLite/LatexActions  
