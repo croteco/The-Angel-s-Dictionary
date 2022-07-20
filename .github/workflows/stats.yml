@@ -17,7 +17,7 @@ jobs:
         run: |
           grep -o 'entry' ./parts/body.tex | wc -l > entry_count.xml
           sed -i '1 i <a>' entry_count.xml
-          sed -i '2 a <\\a>' entry_count.xml
+          sed -i '2 a </a>' entry_count.xml
        
       - name: Stash
         run: |
