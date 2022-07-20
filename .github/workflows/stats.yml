@@ -1,0 +1,50 @@
+name: Text Stats
+on:
+  workflow_run:
+    workflows: ["Build & Release"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+
+  calculate_items:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Calculate Entries
+        run: |
+          grep -o 'entry' ./parts/body.tex | wc -l > entry_count.txt
+       
+      - name: Stash Txt
+        run: |
+          mv entry_count.txt $HOME
+          
+      - name: Create Branch
+        uses: peterjgrainger/action-create-branch@v2.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: gh_actions_builds
+          
+      - name: Checkout gh_actions_builds Branch
+        uses: actions/checkout@v1
+        with:
+          ref: gh_actions_builds 
+          
+      - name: Commit Txt
+        run: |
+          git config --local user.email "croteco@outlook.com"
+          git config --local user.name "croteco"
+          mv $HOME/entry_count.txt $(pwd)  
+          git add -f entry_count.txt
+          git commit -m "Updated by GitHub Action Automatically"
+          
+      - name: Push Txt
+        uses: ad-m/github-push-action@master
+        with: 
+          branch: gh_actions_builds 
+          force: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  
