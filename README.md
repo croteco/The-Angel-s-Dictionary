@@ -1,6 +1,6 @@
 # 天使词典
   
-<img src="https://github.com/apancik/public-domain-icons/raw/master/dist/object%20book%20read%20book.svg" width="100%" height="144">
+<img src="https://user-images.githubusercontent.com/62366663/180018193-2b2680cf-5012-4b2d-842e-488c33d8c833.svg" width="100%" height="144">
   
   
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/croteco/The-Angel-s-Dictionary?style=for-the-badge"></a>
@@ -92,5 +92,6 @@ action配置: https://link.zhihu.com/?target=https%3A//github.com/RavenLite/Late
 说明中的图标: https://github.com/apancik/public-domain-icons
   
   
-<img src="https://github.com/apancik/public-domain-icons/raw/master/dist/object%20book.svg" width="100%" height="144">
+<img src="https://user-images.githubusercontent.com/62366663/180018475-b291f65c-682c-4f23-98f3-80043c34a226.svg" width="100%" height="144">
+  
   
