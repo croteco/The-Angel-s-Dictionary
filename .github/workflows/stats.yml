@@ -15,11 +15,11 @@ jobs:
       
       - name: Calculate Entries
         run: |
-          grep -o 'entry' ./parts/body.tex | wc -l > entry_count.txt
-          sed -i '1 i <a>' entry_count.txt
-          sed -i '2 a <\\a>' entry_count.txt
+          grep -o 'entry' ./parts/body.tex | wc -l > entry_count.xml
+          sed -i '1 i <a>' entry_count.xml
+          sed -i '2 a <\\a>' entry_count.xml
        
-      - name: Stash Txt
+      - name: Stash
         run: |
           mv entry_count.txt $HOME
           
@@ -35,15 +35,15 @@ jobs:
         with:
           ref: gh_actions_builds 
           
-      - name: Commit Txt
+      - name: Commit
         run: |
           git config --local user.email "croteco@outlook.com"
           git config --local user.name "croteco"
-          mv $HOME/entry_count.txt $(pwd)  
-          git add -f entry_count.txt
+          mv $HOME/entry_count.xml $(pwd)  
+          git add -f entry_count.xml
           git commit -m "Updated by GitHub Action Automatically"
           
-      - name: Push Txt
+      - name: Push
         uses: ad-m/github-push-action@master
         with: 
           branch: gh_actions_builds 
