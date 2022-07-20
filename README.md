@@ -1,10 +1,16 @@
 # 天使词典
+  
+<img src="https://github.com/apancik/public-domain-icons/raw/master/dist/object%20book%20read%20book.svg" width="100%" height="144">
+  
+  
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/croteco/The-Angel-s-Dictionary"></a>
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/croteco/The-Angel-s-Dictionary"></a>
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/croteco/The-Angel-s-Dictionary"></a>
-<a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen"></a>
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/croteco/The-Angel-s-Dictionary">
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen?logo=creativecommons"></a>
 [![Build & Release](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml/badge.svg)](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml)
 ## 当前进度
+<img alt="Item Count" src="https://img.shields.io/badge/dynamic/xml?color=blue&style=for-the-badge&label=%E5%BD%93%E5%89%8D%E8%AF%8D%E6%9D%A1%E6%95%B0%E9%87%8F&query=%2A&url=https%3A%2F%2Fgithub.com%2Fcroteco%2FThe-Angel-s-Dictionary%2Fraw%2Fgh_actions_builds%2Fentry_count.txt">
 <table align="center">
   <tr>
     <td align="right">模板和规范：</td>
@@ -83,3 +89,8 @@ Had cherished secretly alone.
 本项目参考了以下项目:  
 ctex字体配置: https://github.com/Thesharing/pkuthss  
 action配置: https://link.zhihu.com/?target=https%3A//github.com/RavenLite/LatexActions  
+说明中的图标: https://github.com/apancik/public-domain-icons
+  
+  
+<img src="https://github.com/apancik/public-domain-icons/raw/master/dist/object%20book.svg" width="100%" height="144">
+  

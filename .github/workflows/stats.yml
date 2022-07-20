@@ -16,6 +16,8 @@ jobs:
       - name: Calculate Entries
         run: |
           grep -o 'entry' ./parts/body.tex | wc -l > entry_count.txt
+          sed -i '1 i <a>' entry_count.txt
+          sed -i '1 a <\a>' entry_count.txt
        
       - name: Stash Txt
         run: |
