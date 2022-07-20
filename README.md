@@ -10,7 +10,7 @@
 <a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen?logo=creativecommons"></a>
 [![Build & Release](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml/badge.svg)](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml)
 ## 当前进度
-<img alt="Item Count" src="https://img.shields.io/badge/dynamic/xml?color=blue&style=for-the-badge&label=%E5%BD%93%E5%89%8D%E8%AF%8D%E6%9D%A1%E6%95%B0%E9%87%8F&query=%2A&url=https%3A%2F%2Fgithub.com%2Fcroteco%2FThe-Angel-s-Dictionary%2Fraw%2Fgh_actions_builds%2Fentry_count.txt">
+<img alt="Item Count" src="https://img.shields.io/badge/dynamic/xml?color=blue&style=for-the-badge&label=%E5%BD%93%E5%89%8D%E8%AF%8D%E6%9D%A1%E6%95%B0%E9%87%8F&query=%2A&url=https%3A%2F%2Fgithub.com%2Fcroteco%2FThe-Angel-s-Dictionary%2Fraw%2Fgh_actions_builds%2Fentry_count.xml">
 <table align="center">
   <tr>
     <td align="right">模板和规范：</td>
