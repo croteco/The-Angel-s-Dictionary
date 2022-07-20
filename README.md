@@ -3,26 +3,26 @@
 <img src="https://github.com/apancik/public-domain-icons/raw/master/dist/object%20book%20read%20book.svg" width="100%" height="144">
   
   
-<a href="https://github.com/croteco/The-Angel-s-Dictionary/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/croteco/The-Angel-s-Dictionary"></a>
-<a href="https://github.com/croteco/The-Angel-s-Dictionary/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/croteco/The-Angel-s-Dictionary"></a>
-<a href="https://github.com/croteco/The-Angel-s-Dictionary/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/croteco/The-Angel-s-Dictionary"></a>
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/croteco/The-Angel-s-Dictionary">
-<a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen?logo=creativecommons"></a>
-[![Build & Release](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml/badge.svg)](https://github.com/croteco/The-Angel-s-Dictionary/actions/workflows/main.yml)
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/croteco/The-Angel-s-Dictionary?style=for-the-badge"></a>
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/croteco/The-Angel-s-Dictionary?style=for-the-badge"></a>
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/croteco/The-Angel-s-Dictionary?style=for-the-badge"></a>
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/croteco/The-Angel-s-Dictionary?style=for-the-badge">
+<a href="https://github.com/croteco/The-Angel-s-Dictionary/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-brightgreen?logo=creativecommons&style=for-the-badge"></a>
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/croteco/The-Angel-s-Dictionary/Build%20&%20Release?logo=github&style=for-the-badge">
 ## 进度
 <img alt="Item Count" src="https://img.shields.io/badge/dynamic/xml?color=blue&style=for-the-badge&label=%E5%BD%93%E5%89%8D%E8%AF%8D%E6%9D%A1%E6%95%B0%E9%87%8F&prefix=%E5%85%B1%20&query=%2A&suffix=%20%E6%9D%A1&url=https%3A%2F%2Fraw.githubusercontent.com%2Fcroteco%2FThe-Angel-s-Dictionary%2Fgh_actions_builds%2Fentry_count.xml">
 <table align="center">
   <tr>
     <td align="right">模板和规范：</td>
-    <td><img src="https://img.shields.io/badge/-50%25-yellow"></td>
+    <td><img src="https://img.shields.io/badge/-50%25-yellow?style=for-the-badge"></td>
   </tr>
    <tr>
     <td align="right">封面和扉页：</td>
-    <td><img src="https://img.shields.io/badge/-0%25-lightgrey"></td>
+    <td><img src="https://img.shields.io/badge/-1%25-lightgrey?style=for-the-badge"></td>
   </tr>
    <tr>
     <td align="right">目录和正文：</td>
-    <td><img src="https://img.shields.io/badge/-1%25-lightgrey"></td>
+    <td><img src="https://img.shields.io/badge/-1%25-lightgrey?style=for-the-badge"></td>
   </tr>
   <tr>
     <td><a title="Test Build" href="https://github.com/croteco/The-Angel-s-Dictionary/blob/gh_actions_builds/dictionary.pdf ">pdf下载（当前测试版本）</a></td>
