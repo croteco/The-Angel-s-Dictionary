@@ -21,7 +21,7 @@ jobs:
        
       - name: Stash
         run: |
-          mv entry_count.txt $HOME
+          mv entry_count.xml $HOME
           
       - name: Create Branch
         uses: peterjgrainger/action-create-branch@v2.0.1
